@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .animation-delay-2000 {
+        animation-delay: 2s;
+    }
+
+    .animation-delay-4000 {
+        animation-delay: 4s;
+    }
+}
+
+@font-face {
+    font-family: "Ogg-italic";
+    src: url("../public/fonts/Ogg-Italic.otf");
+}
+
+@font-face {
+    font-family: "Ogg-Roman";
+    src: url("../public/fonts/Ogg-Roman.otf");
+}
+
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url("../public/fonts/Gilroy-Light.otf");
+}
+
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url("../public/fonts/Gilroy-ExtraBold.otf");
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
